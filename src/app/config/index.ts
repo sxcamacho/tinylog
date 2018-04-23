@@ -1,3 +1,3 @@
-const API_URL = 'http://api.tinylog.io'
+const API_URL = 'https://api.tinylog.io'
 
 export { API_URL }

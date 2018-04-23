@@ -12,8 +12,8 @@ declare var Pusher: any
 export class LogsPageComponent implements OnInit {
     private sub: any
     private clientId: any
-    private loading: boolean
-    private logs: Array<Log>
+    loading: boolean
+    logs: Array<Log>
 
     constructor(
         private logService: LogService,
