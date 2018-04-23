@@ -1,0 +1,7 @@
+<div class="text-center">
+    <div id="container" [@listAnimation]="logs.length" *ngIf="!loading">
+        <div id="list" *ngFor="let log of logs" [class]="log.type">
+            {{ log.text }}
+        </div>
+    </div>
+</div>

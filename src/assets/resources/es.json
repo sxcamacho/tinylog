@@ -1,0 +1,19 @@
+{
+    "test": "hola",
+    "common": {
+        "loading": "cargando..."
+    },
+    "components": {
+        "clientList": {
+            "emptyListMessage": "No hay clientes disponibles"
+        },
+        "logList": {
+            "emptyListMessage": "No hay logs para ver"
+        }
+    },
+    "pages": {
+        "home": {
+            "title": "Pagina de Inicio"
+        }
+    }
+}
